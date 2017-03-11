@@ -1,0 +1,10 @@
+#include<iostream>
+#include<Windows.h>
+#include<MMSystem.h>
+
+int backgroundmusic()
+{
+    PlaySound(TEXT("file.wav"), NULL, SND_SYNC);
+    system("pause");
+    return 0;
+}
